@@ -1,0 +1,17 @@
+{
+  "name": "Ask Any Bot",
+  "short_name": "AskAnyBot",
+  "description": "Domain-aware AI chat with streaming answers and intent detection.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1a18",
+  "theme_color": "#d99322",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

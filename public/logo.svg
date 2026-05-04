@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <!-- background gradient -->
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e8d5a3"/>
+      <stop offset="100%" stop-color="#b89a5a"/>
+    </radialGradient>
+    <!-- head gradient -->
+    <radialGradient id="headGrad" cx="40%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#d4c17a"/>
+      <stop offset="60%" stop-color="#b8a355"/>
+      <stop offset="100%" stop-color="#8c7a3a"/>
+    </radialGradient>
+    <!-- big eye gradient -->
+    <radialGradient id="bigEye" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#4ecdc4"/>
+      <stop offset="50%" stop-color="#1a8a82"/>
+      <stop offset="100%" stop-color="#0a3d3a"/>
+    </radialGradient>
+    <!-- small eye gradient -->
+    <radialGradient id="smallEye" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#3a8aff"/>
+      <stop offset="50%" stop-color="#1a4aaa"/>
+      <stop offset="100%" stop-color="#0a1a55"/>
+    </radialGradient>
+    <!-- body gradient -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8a84b"/>
+      <stop offset="100%" stop-color="#8c6a2a"/>
+    </linearGradient>
+    <!-- leg gradient -->
+    <linearGradient id="legGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8942a"/>
+      <stop offset="100%" stop-color="#7a5e1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background circle -->
+  <circle cx="100" cy="100" r="98" fill="url(#bg)" opacity="0.18"/>
+
+  <!-- ── LEGS ── -->
+  <!-- left leg -->
+  <rect x="62" y="148" width="22" height="28" rx="6" fill="url(#legGrad)" stroke="#7a5e1a" stroke-width="1.5"/>
+  <!-- right leg -->
+  <rect x="116" y="148" width="22" height="28" rx="6" fill="url(#legGrad)" stroke="#7a5e1a" stroke-width="1.5"/>
+  <!-- left foot (claw base) -->
+  <ellipse cx="73" cy="178" rx="14" ry="7" fill="#d4960a" stroke="#8c6400" stroke-width="1.2"/>
+  <!-- right foot -->
+  <ellipse cx="127" cy="178" rx="14" ry="7" fill="#d4960a" stroke="#8c6400" stroke-width="1.2"/>
+  <!-- claw tips left -->
+  <ellipse cx="62" cy="181" rx="5" ry="3" fill="#e8a80a" stroke="#7a5a00" stroke-width="1"/>
+  <ellipse cx="73" cy="183" rx="5" ry="3" fill="#e8a80a" stroke="#7a5a00" stroke-width="1"/>
+  <ellipse cx="84" cy="181" rx="5" ry="3" fill="#e8a80a" stroke="#7a5a00" stroke-width="1"/>
+  <!-- claw tips right -->
+  <ellipse cx="116" cy="181" rx="5" ry="3" fill="#e8a80a" stroke="#7a5a00" stroke-width="1"/>
+  <ellipse cx="127" cy="183" rx="5" ry="3" fill="#e8a80a" stroke="#7a5a00" stroke-width="1"/>
+  <ellipse cx="138" cy="181" rx="5" ry="3" fill="#e8a80a" stroke="#7a5a00" stroke-width="1"/>
+
+  <!-- ── BODY ── -->
+  <rect x="58" y="120" width="84" height="34" rx="10" fill="url(#bodyGrad)" stroke="#7a5e1a" stroke-width="2"/>
+  <!-- body rivets -->
+  <circle cx="68" cy="130" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="132" cy="130" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="68" cy="146" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="132" cy="146" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <!-- body chest gear -->
+  <circle cx="100" cy="137" r="10" fill="#c8a02a" stroke="#7a5e1a" stroke-width="1.5"/>
+  <circle cx="100" cy="137" r="6" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="100" cy="137" r="3" fill="#1a1a1a"/>
+
+  <!-- ── ARMS ── -->
+  <!-- left arm -->
+  <rect x="38" y="122" width="20" height="15" rx="7" fill="url(#bodyGrad)" stroke="#7a5e1a" stroke-width="1.5"/>
+  <!-- right arm -->
+  <rect x="142" y="122" width="20" height="15" rx="7" fill="url(#bodyGrad)" stroke="#7a5e1a" stroke-width="1.5"/>
+
+  <!-- ── HEAD ── -->
+  <ellipse cx="100" cy="90" rx="52" ry="48" fill="url(#headGrad)" stroke="#8c7a3a" stroke-width="2.5"/>
+  <!-- head panel lines -->
+  <path d="M70,65 Q100,55 130,65" fill="none" stroke="#a08a40" stroke-width="1" opacity="0.6"/>
+  <path d="M60,88 Q100,78 140,88" fill="none" stroke="#a08a40" stroke-width="1" opacity="0.4"/>
+  <!-- head rivets -->
+  <circle cx="58" cy="78" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="142" cy="78" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="72" cy="60" r="2.5" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <circle cx="128" cy="60" r="2.5" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1"/>
+  <!-- head ear / cheek guard left -->
+  <ellipse cx="52" cy="95" rx="10" ry="14" fill="#d4a030" stroke="#8c6a1a" stroke-width="1.5"/>
+  <circle cx="52" cy="95" r="5" fill="#e8b840" stroke="#9a7020" stroke-width="1"/>
+  <!-- head ear / cheek guard right -->
+  <ellipse cx="148" cy="95" rx="10" ry="14" fill="#d4a030" stroke="#8c6a1a" stroke-width="1.5"/>
+  <circle cx="148" cy="95" r="5" fill="#e8b840" stroke="#9a7020" stroke-width="1"/>
+
+  <!-- ── LEFT ANTENNA ── -->
+  <line x1="82" y1="44" x2="75" y2="26" stroke="#c8a02a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="75" cy="24" r="4" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1.5"/>
+  <!-- ── RIGHT ANTENNA ── -->
+  <line x1="118" y1="44" x2="126" y2="26" stroke="#c8a02a" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="126" cy="24" r="3" fill="#e8c84a" stroke="#8c6a2a" stroke-width="1.5"/>
+
+  <!-- ── BIG EYE (left) ── -->
+  <circle cx="85" cy="90" r="22" fill="#3a3020" stroke="#7a6020" stroke-width="2.5"/>
+  <circle cx="85" cy="90" r="18" fill="url(#bigEye)" stroke="#2a4a48" stroke-width="1.5"/>
+  <circle cx="85" cy="90" r="10" fill="#0e2a28" stroke="#1a5a55" stroke-width="1"/>
+  <circle cx="85" cy="90" r="5" fill="#0a1a18"/>
+  <!-- big eye highlight -->
+  <circle cx="79" cy="84" r="3.5" fill="white" opacity="0.55"/>
+  <circle cx="82" cy="88" r="1.5" fill="white" opacity="0.3"/>
+  <!-- big eye gear ring detail -->
+  <circle cx="85" cy="90" r="20" fill="none" stroke="#c8a02a" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+
+  <!-- ── SMALL EYE (right) ── -->
+  <circle cx="115" cy="88" r="16" fill="#2a2215" stroke="#7a6020" stroke-width="2"/>
+  <circle cx="115" cy="88" r="12" fill="url(#smallEye)"/>
+  <circle cx="115" cy="88" r="6" fill="#080e20"/>
+  <!-- small eye highlight -->
+  <circle cx="110" cy="83" r="2.5" fill="white" opacity="0.55"/>
+  <!-- small eye gear ring -->
+  <circle cx="115" cy="88" r="14" fill="none" stroke="#c8a02a" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+
+  <!-- ── NOSE / MOUTH PANEL ── -->
+  <rect x="88" y="108" width="14" height="8" rx="3" fill="#a08030" stroke="#7a5e1a" stroke-width="1"/>
+  <rect x="90" y="110" width="3" height="4" rx="1" fill="#e8c84a" opacity="0.7"/>
+  <rect x="95" y="110" width="3" height="4" rx="1" fill="#e8c84a" opacity="0.7"/>
+  <rect x="99" y="110" width="3" height="4" rx="1" fill="#e8c84a" opacity="0.7"/>
+</svg>
