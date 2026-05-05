@@ -137,14 +137,6 @@ const Index = () => {
     inputRef.current?.focus();
   }, []);
 
-  const handleStop = useCallback(() => {
-    requestAbortRef.current?.abort();
-    requestAbortRef.current = null;
-    setIsLoading(false);
-    setFailedRequest(null);
-    toast.message("Response stopped.");
-  }, []);
-
   const handleExport = useCallback(() => {
     try {
       const transcript = buildTranscript({ domain, messages });
@@ -293,13 +285,6 @@ const Index = () => {
         break;
     }
   }, []);
-
-  const handleKeyDown = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (event.key === "Enter" && !event.shiftKey) {
-      event.preventDefault();
-      void send(input);
-    }
-  };
 
   const suggestions = DOMAIN_SUGGESTIONS[domain];
   const failureUi = failedRequest ? getFailureUi(failedRequest.error) : null;
